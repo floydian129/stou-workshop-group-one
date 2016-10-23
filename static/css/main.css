@@ -3,6 +3,21 @@ body {
     padding-top: 50px;
 }
 
+@font-face {
+	font-family: 'WR_Tish';
+	src: url('../fonts/WRTishidol-Bold.eot');
+	src: url('../fonts/WRTishidol-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/WRTishidol-Bold.woff') format('woff'),
+		url('../fonts/WRTishidol-Bold.ttf') format('truetype'),
+		url('../fonts/WRTishidol-Bold.svg#WRTishidol-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'WR_Tish';
+}
+
 .starter-template {
   padding: 40px 15px;
 }
@@ -40,6 +55,8 @@ img {
 .navbar-default {
     background-color: #1abc9c;
     border-color: #1abc9c;
+    font-family: 'WR_Tish';
+    font-size: 150%;
 }
 /* title */
 .navbar-default .navbar-brand {
